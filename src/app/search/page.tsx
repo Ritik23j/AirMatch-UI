@@ -173,7 +173,7 @@ export default function SearchPage() {
       {/* Navbar */}
       <nav className="bg-white shadow-md py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-2xl font-bold text-blue-600">SkyScanner Clone</h1>
+          <h1 className="text-2xl font-bold text-blue-600">AirMatch</h1>
         </div>
       </nav>
 

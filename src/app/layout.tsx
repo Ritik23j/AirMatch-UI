@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "SkyScanner Clone",
+  title: "AirMatch",
   description: "Search flights, hotels, and more",
 };
 
