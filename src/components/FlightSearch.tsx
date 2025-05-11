@@ -1,8 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const FlightSearch = () => {
+  const router = useRouter();
+  
   // State for form inputs
   const [origin, setOrigin] = useState('');
   const [destination, setDestination] = useState('');
@@ -13,7 +16,8 @@ const FlightSearch = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     console.log({ origin, destination, departureDate, returnDate });
-    // Here you would typically make an API call
+    // Navigate to search results page
+    router.push('/search');
   };
 
   return (
