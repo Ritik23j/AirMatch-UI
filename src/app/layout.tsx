@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "AirMatch",
-  description: "Search flights, hotels, and more",
+  title: {
+    template: "%s | AirMatch",
+    default: "AirMatch",
+  },
+  description: "Search affodibility",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
